@@ -23,7 +23,7 @@ In this project I used cisco packet tracer in physical mode, the setup is as fol
 
 The 31 PCs are seperated into 2 networks, the top 14 PCs are connected to switch 1 and the remaining PCs are connected to switch 2
 
-The g0/0 port of Switch 1 is connected to interface g0/1 of the router
+The g0/0 port of Switch 1 is connected to interface g0/1 of the router <br>
 The g0/0 port of Switch 2 is connected to interface g0/2 of the router
 
 ![Alt text](./Wiring%20Closet.png "Wiring Closet")
@@ -42,45 +42,47 @@ Gateway of last resort is 0.0.0.0 to network 0.0.0.0
 
 - 192.168.0.0/24 is variably subnetted, 2 subnets, 2 masks
 
-C       192.168.0.0/24 is directly connected, GigabitEthernet0/0
+C       192.168.0.0/24 is directly connected, GigabitEthernet0/0 <br>
 L       192.168.0.254/32 is directly connected, GigabitEthernet0/0
 
 - 192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks
 
-C       192.168.1.0/24 is directly connected, GigabitEthernet0/1
+C       192.168.1.0/24 is directly connected, GigabitEthernet0/1 <br>
 L       192.168.1.254/32 is directly connected, GigabitEthernet0/1
 
 - 192.168.2.0/24 is variably subnetted, 2 subnets, 2 masks
 
-C       192.168.2.0/24 is directly connected, GigabitEthernet0/2
+C       192.168.2.0/24 is directly connected, GigabitEthernet0/2 <br>
 L       192.168.2.254/32 is directly connected, GigabitEthernet0/2
 
 - S*   0.0.0.0/0 is directly connected, GigabitEthernet0/0
 
 ## IP DHCP pool
 #### Pool switch1 :
- Utilization mark (high/low)    : 100 / 0
- Subnet size (first/next)       : 0 / 0 
- Total addresses                : 254
- Leased addresses               : 17
- Excluded addresses             : 3
- Pending event                  : none
+ Utilization mark (high/low)    : 100 / 0 <br>
+ Subnet size (first/next)       : 0 / 0 <br>
+ Total addresses                : 254 <br>
+ Leased addresses               : 17 <br>
+ Excluded addresses             : 3 <br>
+ Pending event                  : none <br>
 
- 1 subnet is currently in the pool
- Current index        IP address range                    Leased/Excluded/Total
- 192.168.1.1          192.168.1.1      - 192.168.1.254     17   / 3     / 254
+ 1 subnet is currently in the pool <br>
+ Current index | IP address range | Leased/Excluded/Total
+ --- | --- | ---
+ 192.168.1.1 | 192.168.1.1 - 192.168.1.254 | 17   / 3     / 254
 
 #### Pool switch2 :
- Utilization mark (high/low)    : 100 / 0
- Subnet size (first/next)       : 0 / 0 
- Total addresses                : 254
- Leased addresses               : 14
- Excluded addresses             : 3
- Pending event                  : none
+ Utilization mark (high/low)    : 100 / 0 <br>
+ Subnet size (first/next)       : 0 / 0 <br>
+ Total addresses                : 254 <br>
+ Leased addresses               : 14 <br>
+ Excluded addresses             : 3 <br>
+ Pending event                  : none <br>
 
- 1 subnet is currently in the pool
- Current index        IP address range                    Leased/Excluded/Total
- 192.168.2.1          192.168.2.1      - 192.168.2.254     14   / 3     / 254
+ 1 subnet is currently in the pool <br>
+ Current index | IP address range | Leased/Excluded/Total
+ --- | --- | ---
+ 192.168.2.1 | 192.168.2.1 - 192.168.2.254 | 14   / 3     / 254
 
  ## Takeaways:
  In this project I gained a good understanding of the following skills:
